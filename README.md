@@ -1,4 +1,4 @@
-# C# API Battleship Challenge
+# Java API Battleship Challenge
 
 ## Learning Objectives
 
