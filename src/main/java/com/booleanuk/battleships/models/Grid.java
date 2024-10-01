@@ -19,14 +19,16 @@ public class Grid {
         }
     }
 
-    // Adds a ship to the grid by specifying the ships coordinates and size.
+    // TODO: Handle edge case where player tries to place a ship on another.
+    // TODO: Write unit test for method.
     public void placeShip(Ship ship, List<Coordinate> coordinates) {
         for (Coordinate coordinate : coordinates) {
             cells[coordinate.getX()][coordinate.getY()].setShip(ship);
         }
     }
 
-    // Method to register an attack on the grid.
+    // TODO: Handle case where player tries to attack the same cell multiple times.
+    // TODO: Write unit test for method.
     public boolean attack(int x, int y) {
         if (cells[x][y].hasShip()) {
             cells[x][y].hit();

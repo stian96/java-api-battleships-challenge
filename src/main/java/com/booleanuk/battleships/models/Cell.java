@@ -23,7 +23,7 @@ public class Cell {
     }
 
     public boolean miss() {
-        this.isHit = false;
+        this.isHit = true;
         return false;
     }
 

@@ -21,6 +21,7 @@ public class Player {
         this.isTurn = false;
     }
 
+    // TODO: Write unit test for method.
     public boolean allShipsSunk() {
         for (Ship ship : this.ships) {
             if (!ship.isSunk()) {

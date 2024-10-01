@@ -36,7 +36,5 @@ public class Game {
         return false;
     }
 
-    public boolean isOnGoing() {
-        return this.isOnGoing;
-    }
+    // TODO: Implement method that checks if the game is over, (i.e. no more actions can be made).
 }
